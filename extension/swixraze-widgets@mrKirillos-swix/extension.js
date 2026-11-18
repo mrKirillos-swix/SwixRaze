@@ -57,7 +57,7 @@ function readConfig() {
     } catch (e) {
         console.warn(`swixraze-widgets: config: ${e.message}`);
     }
-    return structuredClone(DEFAULTS);
+    return JSON.parse(JSON.stringify(DEFAULTS));
 }
 
 function unpackMeta(proxy) {
