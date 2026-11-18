@@ -1,0 +1,41 @@
+.sxr-column { spacing: 12px; }
+.sxr-card {
+  background-color: rgba(28, 27, 34, 0.62);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 18px;
+  padding: 12px 14px;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 10pt;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+.sxr-player { spacing: 12px; }
+.sxr-cover {
+  width: 52px; height: 52px; border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+.sxr-player-text { spacing: 2px; }
+.sxr-title { font-weight: bold; font-size: 10.5pt; }
+.sxr-subtitle, .sxr-dim { color: rgba(255, 255, 255, 0.55); font-size: 9pt; }
+.sxr-controls { spacing: 4px; }
+.sxr-btn {
+  width: 30px; height: 30px; border-radius: 999px;
+  color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.06);
+}
+.sxr-btn:hover { background-color: rgba(255, 255, 255, 0.16); }
+.sxr-btn-primary { color: #1c1b22; }
+.sxr-header { color: rgba(255, 255, 255, 0.5); font-size: 8.5pt; margin-bottom: 8px; }
+.sxr-device-list { spacing: 10px; }
+.sxr-device { spacing: 10px; }
+.sxr-device-icon { color: rgba(255, 255, 255, 0.75); }
+.sxr-device-name { font-size: 9.5pt; }
+.sxr-device-pct { color: rgba(255, 255, 255, 0.6); font-size: 9pt; }
+.sxr-bar {
+  height: 5px; margin-top: 5px; border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.10);
+}
+.sxr-bar-fill { border-radius: 3px; }
+/* sxr-font-start */
+.sxr-card { font-family: "JetBrainsMono Nerd Font", sans-serif; font-weight: 400; }
+/* sxr-font-end */

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=SwixRaze
+GenericName=Appearance
+GenericName[ru]=Оформление
+Comment=Themes, wallpapers, colors, fonts, icons and desktop widgets
+Comment[ru]=Темы, обои, цвета, шрифты, иконки и виджеты рабочего стола
+Exec=python3 @APP@
+Icon=preferences-desktop-theme-global
+Categories=Settings;DesktopSettings;GTK;
+Keywords=theme;wallpaper;widgets;icons;fonts;тема;обои;цвет;виджеты;иконки;шрифты;оформление;
+StartupWMClass=io.github.mrKirillos_swix.SwixRaze
+StartupNotify=true

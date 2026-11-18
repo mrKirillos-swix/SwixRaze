@@ -1,0 +1,17 @@
+{
+  "uuid": "swixraze-widgets@mrKirillos-swix",
+  "name": "SwixRaze Widgets",
+  "description": "Карточки плеера, устройств и системы на рабочем столе и экране блокировки. Настраиваются в приложении SwixRaze.",
+  "shell-version": [
+    "48",
+    "49",
+    "50",
+    "51"
+  ],
+  "version": 1,
+  "session-modes": [
+    "user",
+    "unlock-dialog"
+  ],
+  "url": "https://github.com/mrKirillos-swix/SwixRaze"
+}
