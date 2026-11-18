@@ -10,7 +10,8 @@ CONF="${XDG_CONFIG_HOME:-$HOME/.config}"
 
 gnome-extensions disable "$EXT_UUID" 2>/dev/null || true
 rm -rf "${DATA:?}/gnome-shell/extensions/$EXT_UUID" "${DATA:?}/swixraze"
-rm -f "$DATA/applications/$APP_ID.desktop" "$DATA/org.gnome.Ptyxis/palettes/SwixRaze.palette"
+rm -f "$DATA/applications/$APP_ID.desktop" "$DATA/org.gnome.Ptyxis/palettes/SwixRaze.palette" \
+      "$DATA/icons/hicolor/scalable/apps/$APP_ID.svg"
 update-desktop-database "$DATA/applications" 2>/dev/null || true
 
 if gnome-extensions info azclock@azclock.gitlab.com >/dev/null 2>&1; then

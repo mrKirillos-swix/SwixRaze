@@ -1,3 +1,5 @@
+<p align="center"><img src="data/icons/io.github.mrKirillos_swix.SwixRaze.svg" width="128" alt="SwixRaze"></p>
+
 # SwixRaze
 
 **Смешай стиль. Снеси скучное.**

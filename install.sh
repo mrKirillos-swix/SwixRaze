@@ -48,6 +48,9 @@ if ((shell_major < 48)); then warn "Нужен GNOME Shell 48 или новее 
 # ---------------------------------------------------------------- основное
 say "Ставлю приложение SwixRaze"
 install -Dm644 "$REPO/app/swixraze.py" "$DATA/swixraze/swixraze.py"
+install -Dm644 "$REPO/data/icons/$APP_ID.svg" "$DATA/icons/hicolor/scalable/apps/$APP_ID.svg"
+gtk-update-icon-cache -q -t "$DATA/icons/hicolor" 2>/dev/null || true
+mkdir -p "$DATA/applications"
 sed "s|@APP@|$DATA/swixraze/swixraze.py|" "$REPO/app/$APP_ID.desktop" > "$DATA/applications/$APP_ID.desktop"
 update-desktop-database "$DATA/applications" 2>/dev/null || true
 
